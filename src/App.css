@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+padding: 0px 100px;
+}
+
+.menu{
+  display: flex;
+  background-color: rgb(123, 87, 87);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 0px;
+  text-align: center;
+  display: flex;
+}
+.flex{display: flex;
+margin:20px 0px;}
+
+.description{
+padding-right: 50px;
+font-size: 18px;
+}
+
+
+.menu img{
+  margin-left: 100px;
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline-flex;
+  margin-right: 60px;
+  padding-top: 30px;
+}
+.items{
+  margin-left: 100px;
+}
+
+footer{
+  background-color: rgb(123, 87, 87);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
